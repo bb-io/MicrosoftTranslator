@@ -6,13 +6,13 @@
         <Nullable>enable</Nullable>
         <Product>Azure AI Translator</Product>
         <Description>Azure AI Translator is a cloud-based neural machine translation service that can be used with any operating system. It powers many Microsoft products and services for language translation and other language-related operations. The service uses modern neural machine translation technology and offers statistical machine translation technology</Description>
-        <Version>1.2.4</Version>
+        <Version>1.2.5</Version>
         <AssemblyName>Apps.MicrosoftTranslator</AssemblyName>
     </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="Azure.AI.Translation.Text" Version="1.0.0" />
-        <PackageReference Include="Blackbird.Applications.Sdk.Common" Version="2.11.1" />
+        <PackageReference Include="Blackbird.Applications.Sdk.Common" Version="2.14.0" />
         <PackageReference Include="Blackbird.Applications.Sdk.Utils" Version="1.0.26" />
         <PackageReference Include="Blackbird.Applications.SDK.Extensions.FileManagement" Version="1.0.2-alpha1" />
     </ItemGroup>

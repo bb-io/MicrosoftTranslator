@@ -18,7 +18,7 @@ using Apps.MicrosoftTranslator.Model.Dtos;
 
 namespace Apps.MicrosoftTranslator.Actions;
 
-[ActionList]
+[ActionList("Translator")]
 public class TranslatorActions(InvocationContext invocationContext, IFileManagementClient fileManagementClient)
     : AzureTextTranslatorInvocable(invocationContext)
 {
