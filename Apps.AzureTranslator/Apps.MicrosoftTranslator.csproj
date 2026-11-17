@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         <Product>Azure AI Translator</Product>
         <Description>Azure AI Translator is a cloud-based neural machine translation service that can be used with any operating system. It powers many Microsoft products and services for language translation and other language-related operations. The service uses modern neural machine translation technology and offers statistical machine translation technology</Description>
-        <Version>1.2.5</Version>
+        <Version>1.2.6</Version>
         <AssemblyName>Apps.MicrosoftTranslator</AssemblyName>
     </PropertyGroup>
 
@@ -22,9 +22,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="..\README.md">
-        <Link>README.md</Link>
-      </Content>
+      <EmbeddedResource Include="..\README.md" Link="README.md" CopyToOutputDirectory="Always" />
     </ItemGroup>
 
 </Project>
